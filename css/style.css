@@ -135,16 +135,16 @@ aside {
 }
 
 
-/* cover section */
+/* section1 */
 
-.cover_section {
+.section1{
     grid-area: COVER_SECTION;
     background: url(../images/cover.png);
     display: flex;
     align-items: flex-end;
 }
 
-.cover_section_content,
+.section1_content,
 .card_content {
     width: 100%;
     background-color: var(--secondary-color-light);
@@ -183,19 +183,19 @@ aside {
 
 /* img 1 */
 
-.img_wrapper1 {
+.img_1{
     grid-area: IMG1;
     background-color: var(--secondary-color-light);
 }
 
 /* img 1 */
-.img_wrapper2 {
+.img_2 {
     grid-area: IMG2;
     background-color: var(--secondary-color-light);
 }
 
 
-/* card section */
+/* section2 */
 
 .card1,
 .card2,
@@ -212,19 +212,19 @@ aside {
     padding: 8px;
 }
 
-.one {
+.imgone {
     background: url(../images/card1.png);
 }
 
-.two {
+.imgtwo {
     background: url(../images/card2.png);
 }
 
-.three {
+.imgthree {
     background: url(../images/card3.png);
 }
 
-.four {
+.imgfour {
     background: url(../images/card4.png);
 }
 
